@@ -1,0 +1,125 @@
+body{
+    margin:0px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+h1{
+    font-family: 'Cookie', cursive;
+    font-size: 5rem ;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Lobster Two', cursive;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+hr{
+    border: dotted 5px #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container{
+    background-color: #E4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.top-container h1{
+    margin: 50px auto 0 auto;
+}
+
+.top-container h2{
+    font-weight: normal;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 350px;
+    left: 300px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-pic{
+    width: 12.5rem;
+}
+
+.dishwash {
+    width: 25%;
+    float: left;
+}
+
+.bike{
+    width: 25%;
+    float: right;
+}
+
+.button{
+    background: #3D94F6;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 8px;
+    width: 15%;
+    margin: 30px auto 60px auto;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 20px;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 1rem;
+}
+
+.copyright{
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    color: #EAF6F6;
+    padding-bottom: 20px;
+}
